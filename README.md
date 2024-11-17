@@ -19,40 +19,30 @@ Risks associated with lending company decision is twofold:
  The company can utilise the knowledge on default risk drivers for its portfolio and risk assessment and hence mitigate the credit risk. 
 
 ## Conclusions
-1.Housing Status and Default Risk: Rented Households had the highest number of charge-off cases. The lending company should evaluate the loan applicants carefully before lending to rented households as they are more susceptible to default.
-2. Verfication Status: whose income source are not verified have higher number of charge-offs when compared with verified, followed by verified from source. But the difference in not verified and verified count is not very significant.
-Loans taken for Debt consolidation purpose had the highest number of charge offs. The lending company should be cautious when approving loans for debt consolidation purpose.
- California had the highest number of charge-offs. The lending company can implement stricter credit policies in California.
-
-Ordered Categorical
-Short term loans (term of 36 months) had higher charge-offs. The lending company should evaluate the loans carefully for shorter terms.
-Loans with B grade had highest number of charge-offs indicating these customers faced difficulty in repaying the loans.
-Loans with 10 + years of experience had higher number of charge-offs. Although, the total number of employees with 10+ years of experience is significantly higher than in other categories.
-Loans issued in 2011 had the highest number of charge-offs. One potential reason could be economic difficulties in the specific year.
- Loans issued in fourth quarter had the highest number of charge-offs. One potential reason for this can be that loan underwriters are providing loans with less due diligence to complete their targets. 
-![image](https://github.com/user-attachments/assets/08949e82-752e-47eb-a8d9-e1aaa3a66511)
+1. **Housing Status and Default Risk**: Rented and Mortgaged houses are more likely to default. This fact needs to be taken into account when underwriting the loans and careful credit analysis and pricing should be done when extending such loans.   
+2. **Verfication Status and Default Risk**: Non-verified incomes are more likely to default. The lending company can invest more effort and resources in verifying the incomes effectively before extending the loans.
+3. **Debt Consolidation Loan Default Risk**: Debt consolidation loans are risky loans and more susceptible to default. The lending company should be cautious when approving loans for debt consolidation purpose and consider high pricing for the riskier loans.
+4. **Geograhy and Default Risk**:Loan applicants in California, Florida and New York are more likely to default. The lending company can implement stricter credit policies and adjust the pricing based on loan riskiness.
+5. **Loan Term and Default Risk**: Short term loans (term of 36 months) are more likely to default. The lending company should carefully evaluate the loans with shorter terms.
+6. **Grade and Default Risk**: Loans with B and C grades are seen to have more defaults. The lending company should re-evaluate their grading system or underlying models and provide worse grades to the loans that are more likely to default.
+7. **Experience and Default Risk**:Applicants with 10 + years of experience are more likely to default. Although, the total number of employees with 10+ years of experience is significantly higher than in other categories.But still, additional parameters should be considered when evaluating the credit-worthiness of a loan applicant.
+8. **Seasonal Trends and Default Risk**:There are more loan applications in December and Q4.Loans issued in this period are also seen to have higher defaults. Lending company should exercise rigorous credit worthiness analysis in this high peak season by developing their infrastructure and resource management.
+9. **Lending Amount and Default Risk**: Applicants with loan amount requests and funding of 5K-10K are more likely to default. The lending company should carefully analyse the loan applications with intermediate loan amount requests.
+10. **DTI and Default Risk**: High Debt to Income Ratio applicants are more likely to default. The lending company should incorporate this information when underwriting the loans and should apprpriately price the loans for higher riskiness.
+11. **Income and Default Risk**: Income Bracket of 30K-60K are more likely to default. The lending company should carefully evaluate the credit worthiness of low-moderate income brackets for their repaying capacity when extending the loan.
+12. **Credit History and Default Risk**:Applicants with less credit history ( less open credit lines, total credit lines, revolving balance or low utilisation rates) are more likely to default. The lending company critically evaluate the loan applications with less or no credit history.
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- Python - version 3.12.4
+- Matplotlib - version 3.9.2
+- Numpy -version 1.26.4
+- Pandas - version 2.2.2
+- Seaborn - version 0.13.2
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+- Live Sessions of Lending Club Case Study.
+- Upgrad Tutorials on Exploratory Data Analysis on Learning Platform.
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project --># Lending-Club-Case-Study
+Created by [Priyanka Gulati](https://github.com/pgulati9) and [Pankaj Kumar Agrawal](https://github.com/pankaj8blr)
