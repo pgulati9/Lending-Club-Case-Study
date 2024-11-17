@@ -1,5 +1,6 @@
 # Lending Club Case Study
-There is a consumer finance company which specialises in lending various types of loans to urban customers.The objective of this case study is to help a consumer finance company understand the consumer and loan attributes that influence the tendency of default by using Exploratory Data Analysis (EDA) techniques.Credit loss is the amount of money lost by the lender when the borrower refuses to pay or runs away with the money owed. 
+There is a consumer finance company which specialises in lending various types of loans to urban customers.The objective of this case study is to help the consumer finance company understand the consumer and loan attributes that influence the tendency of default by using Exploratory Data Analysis (EDA) techniques.Credit loss is the amount of money lost by the lender when the borrower refuses to pay or runs away with the money owed. 
+
 The Lending company wants to analyse the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default.  The company can utilise this knowledge for its portfolio and risk assessment and hence mitigate the credit risk. 
 
 ## Table of Contents
